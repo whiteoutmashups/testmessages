@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Messages</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header" style="background:rgba(0, 0, 0, 0.4); width:40%; border:2px solid white;">
+						<h1 style="text-shadow:2px 2px black;">Messenger</h1>
+						<p style="text-shadow:2px 2px black;"><b>CSS Frontend &nbsp;&bull;&nbsp; Messages &nbsp;&bull;&nbsp; Django Backend</p>
+						<nav>
+							<input type="radio" name="gender" value="male"><font style="text-shadow:2px 2px black;"> Empty Option &nbsp&nbsp
+							<input type="radio" name="gender" value="female">Empty Option &nbsp&nbsp
+							<input type="radio" name="gender" value="female">Empty Option<br><br>
+														<input type="text" size ="20" placeholder="Long text so please extend this box..." /> &nbsp&nbsp <button type="submit" class="btn-primary">Stylize This Btn</button><br><br>
+														Our tagline will go here for users to view<br><br></font></b>
+							<ul>
+								<li><a href="" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Copyright 2018. <a href="#" onclick="whatsup()">Additional Information</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			function whatsup() {
+				alert('I think we will put additional information here for the users to view, sort of like a help file. But I will make it so do not worry about it.');
+			}
+		</script>
+	</body>
+</html>
